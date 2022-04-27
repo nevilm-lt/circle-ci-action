@@ -5,11 +5,11 @@ jobs:
     machine: true
       # image: ubuntu-2004:202010-01
 
-      steps:
-        - checkout
-        - run:
-            name: "Say hello"
-            command: "ps aux"
+    steps:
+      - checkout
+      - run:
+          name: "Say hello"
+          command: "ps aux"
 
 workflows:
   say-hello-workflow:
