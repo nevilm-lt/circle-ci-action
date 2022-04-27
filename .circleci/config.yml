@@ -2,8 +2,10 @@ version: 2.1
 
 jobs:
   build:
-    machine: true
+#     machine: true
       # image: ubuntu-2004:202010-01
+    docker:
+      - image: cimg/base:2021.04
 
     steps:
       - run:
