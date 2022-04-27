@@ -14,7 +14,4 @@ jobs:
             ps aux
             whoami
             pwd
-            docker ps
-            docker images
             cat /etc/hosts
-            sudo -l
