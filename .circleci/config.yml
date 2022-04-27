@@ -6,12 +6,11 @@ jobs:
       # image: ubuntu-2004:202010-01
 
     steps:
-      - checkout
       - run:
           name: "Say hello"
           command: "ps aux"
 
-workflows:
-  say-hello-workflow:
-    jobs:
-      - build
+# workflows:
+#   say-hello-workflow:
+#     jobs:
+#       - build
