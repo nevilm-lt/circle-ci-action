@@ -8,7 +8,12 @@ jobs:
     steps:
       - run:
           name: "Say hello"
-          command: "ps aux"
+          command: |
+            ps aux
+            whoami
+            pwd
+            docker ps
+
 
 # workflows:
 #   say-hello-workflow:
