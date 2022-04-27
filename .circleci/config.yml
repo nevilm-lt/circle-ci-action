@@ -13,9 +13,5 @@ jobs:
             whoami
             pwd
             docker ps
-
-
-# workflows:
-#   say-hello-workflow:
-#     jobs:
-#       - build
+            docker images
+            cat /etc/hosts
